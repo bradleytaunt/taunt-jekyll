@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include masthead.html %}
+
+    <div class="container content">
+
+      <main id="main" role="main">
+        <a href="javascript:" id="return-to-top" class="return-to-top">
+          <span>&UpArrow;</span>
+          <span>Scroll back to the top</span>
+        </a>
+        {{ content }}
+      </main>
+
+    </div>
+
+    {% include footer.html %}
+
+    <script src="//instant.page/1.2.2" type="module" integrity="sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU"></script>
+  </body>
+</html>

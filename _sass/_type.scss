@@ -1,0 +1,144 @@
+// Typography
+//
+// Headings, body text, lists, and other misc typographic elements.
+
+body {
+  font-size: $root-font-size;
+  line-height: $root-line-height;
+  font-display: swap;
+}
+
+.masthead-container {
+  h2 {
+    margin-top: 0 !important;
+  }
+}
+
+a,a:visited {
+  color: $body-color;
+  font-weight: bold;
+
+  &:hover {
+    color: $brand-color;
+  }
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid lightgrey;
+  font-family: "Georgia", serif;
+  font-size: 120%;
+  font-style: italic;
+  margin: 2rem 0;
+  padding: 1rem;
+
+  p {
+    margin: 0;
+  }
+
+  footer {
+    font-size: 80%;
+    margin: 1rem 0 0 0;
+  }
+}
+
+dl {
+  dt {
+    margin-bottom: 10px;
+  }
+  dd {
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+}
+
+figure {
+  margin: 2rem 0;
+}
+
+pre {
+  border: 1px solid lightgrey;
+  overflow: auto;
+  padding: 1em;
+  width: 100%;
+}
+
+.posts {
+
+  article {
+    margin: 3rem 0;
+
+    p {
+      margin-top: 0.5rem;
+    }
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+  }
+}
+
+.post-date {
+  opacity: 0.6;
+}
+
+.marginnote {
+  font-style: italic;
+}
+
+.individual-post {
+  h1 {
+    font-size: 300%;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+
+    @media(max-width: 1000px) {
+      font-size: 220%;
+    }
+  }
+  h2,h3,h4 {
+    margin-top: 3rem;
+  }
+  code {
+    color: orangered;
+  }
+}
+
+ul li, ol li {
+  margin-bottom: 10px;
+
+   ul, ol {
+     margin-top: 10px;
+   }
+}
+
+// Custom type
+// Extend paragraphs with `.lead` for larger introductory text.
+
+.lead {
+  font-size: 120%;
+  line-height: 1.4;
+}
+
+// Dark Mode
+@media (prefers-color-scheme: dark) {
+  body {
+    background: $body-color;
+    color: white;
+
+    a,a:visited {
+      color: white;
+    }
+
+    blockquote {
+      background: none;
+      border-color: black;
+    }
+
+    pre {
+      background: black;
+    }
+  }
+}

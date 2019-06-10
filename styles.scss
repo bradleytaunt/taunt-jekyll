@@ -1,0 +1,14 @@
+---
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
+---
+
+* {
+    box-sizing: border-box;
+}
+
+@import "variables";
+@import "fonts";
+@import "type";
+@import "syntax";
+@import "layout";

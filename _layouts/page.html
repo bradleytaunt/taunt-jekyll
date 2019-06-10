@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body class="individual-post">
+
+    {% include masthead.html %}
+
+    <div class="container content">
+
+      <main id="main" role="main">
+        <article class="post page" role="article">
+          <i class="fas {{ page.icon }}"></i>
+          <h1 class="post-title">{{ page.title }}</h1>
+          {{ content }}
+        </article>
+      </main>
+
+    </div>
+
+    <hr>
+
+    {% include footer.html %}
+
+    <script src="//instant.page/1.2.2" type="module" integrity="sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU"></script>
+  </body>
+</html>
+

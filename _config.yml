@@ -1,0 +1,37 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               'Taunt Jekyll Theme'
+url:                 https://bradleytaunt.com
+tagline:             The personal theme of Bradley Taunt
+paginate:            1000
+paginate_path:       "/page:num/"
+baseurl:             ""
+
+# Includes
+include:
+  - _redirects
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Bradley Taunt
+  url:               https://twitter.com/bradtaunt
+  email:             bradleytaunt@gmail.com
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/bradleytaunt/taunt-jekyll
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
