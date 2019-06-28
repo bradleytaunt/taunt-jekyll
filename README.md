@@ -1,6 +1,6 @@
 # Taunt Jekyll Theme
 
-The custom theme I created for my own website: [bradleytaunt.com](https://bradleytaunt.com)
+Demo: [taunt-jekyll.netlify.com](https://taunt-jekyll.netlify.com)
 
 ## Simple guide
 
@@ -13,4 +13,6 @@ Everything else should be fairly straightforward since it is a very basic theme.
 
 ### Sidenote
 
-The theme ships with one included example blog post (which is *not* open source) and can be found here: [https://bradleytaunt.com/2016/05/28/aqua-ui-buttons/](https://bradleytaunt.com/2016/05/28/aqua-ui-buttons/)
+The theme ships with one included example blog post from my personal website (which is *not* open source) and can be found here: [https://bradleytaunt.com/2016/05/28/aqua-ui-buttons/](https://bradleytaunt.com/2016/05/28/aqua-ui-buttons/)
+
+Everything else about this theme is open source :)
